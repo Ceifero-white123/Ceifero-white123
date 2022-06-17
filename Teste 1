@@ -1,0 +1,28 @@
+nome = input ('qual é seu nome? ')
+
+print ('olá',nome,'seja bem vindo')
+  
+print( "\n")
+    
+x= int(input ("qual é sua idade? "))
+
+if x < 20 :
+    print ('você é uma pessoa jovem')
+
+elif x < 40 :
+    print ('você é um adulto')
+
+else:
+    print ('você é uma pessoa com mais idade')
+ 
+print("\n")
+ 
+altura = int(input ('qual é a sua altura? '))
+
+if altura < 140 :
+         print ('você é baixo')
+
+elif altura < 180 :
+         print ('você tem uma altura normal')
+else:
+    print ('você é bem alto')
